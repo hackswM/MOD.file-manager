@@ -1,0 +1,2 @@
+gcc -Wall -fPIC -I./ -c strfun.c opt.c
+gcc -shared -o filemanage.so strfun.o opt.o
